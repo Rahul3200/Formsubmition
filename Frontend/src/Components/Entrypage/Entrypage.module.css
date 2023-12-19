@@ -1,0 +1,37 @@
+
+ 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set a background color for better visibility */
+  }
+  
+  .buttonscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loginbutton, .registerbutton {
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px; /* Increased margin for better spacing */
+    cursor: pointer;
+    border-radius: 5px; /* Added border-radius for rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  /* Hover effect for buttons */
+  .loginbutton:hover, .registerbutton:hover {
+    background-color: black; /* Darker color on hover */
+  }
+  

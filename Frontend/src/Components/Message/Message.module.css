@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .Message-container {
+    text-align: center;
+  }
+  
+  .Message-container h1 {
+    font-size: 24px; /* You can adjust the font size as needed */
+    color: #333; /* You can set the color as needed */
+  }
+  
